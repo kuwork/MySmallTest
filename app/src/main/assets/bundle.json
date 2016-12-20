@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "bundles": [
+    {
+      "uri": "app_main",
+      "pkg": "com.example.mysmall.app.main",
+      "rules": {
+        "page1": ".ScrollingActivity"
+      }
+    }
+  ]
+}
