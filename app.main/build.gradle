@@ -5,7 +5,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.example.mysmall.app.main"
+        applicationId "com.example.app.main"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -26,4 +26,5 @@ dependencies {
     compile rootProject.ext.dependencies.appcompatV7
     compile rootProject.ext.dependencies.supportV4
     compile rootProject.ext.dependencies.design
+    compile project(':lib.utils')
 }

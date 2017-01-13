@@ -14,8 +14,8 @@ buildscript {
 }
 
 small {
-    aarVersion = '1.1.0-beta9'
-    strictSplitResources = false
+    aarVersion = '1.1.0-alpha1'
+//    strictSplitResources = false
 
 }
 

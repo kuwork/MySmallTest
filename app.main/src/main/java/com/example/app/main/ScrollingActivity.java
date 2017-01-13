@@ -1,13 +1,13 @@
-package com.example.mysmall.app.main;
+package com.example.app.main;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.TextureView;
 import android.view.View;
-import android.widget.VideoView;
+
+import com.example.lib.utils.TestUtils;
 
 public class ScrollingActivity extends AppCompatActivity {
 
@@ -24,6 +24,7 @@ public class ScrollingActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                TestUtils.showToast(getBaseContext(),"测试");
             }
         });
     }

@@ -3,7 +3,7 @@
   "bundles": [
     {
       "uri": "app_main",
-      "pkg": "com.example.mysmall.app.main",
+      "pkg": "com.example.app.main",
       "rules": {
         "page1": ".ScrollingActivity"
       }
